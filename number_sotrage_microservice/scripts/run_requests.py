@@ -49,7 +49,7 @@ def request_decrement():
 
 
 def request_get():
-    print(requests.get('http://127.0.0.1:5000/access').json())
+    print(requests.get('http://127.0.0.1:5000/get').json())
 
 
 def request_set(number=0):
